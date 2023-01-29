@@ -63,3 +63,17 @@ h1{
     background: rgb(155, 186, 186);
     clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
 }
+.main{
+    background: rgb(198, 170, 226);
+    height: 100vh;
+}
+.main__block{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.main_item{
+    width: 25%;
+    height: 500px;
+    background: rgb(223, 147, 147);
+}
